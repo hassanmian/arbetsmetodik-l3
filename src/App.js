@@ -4,8 +4,9 @@ import Preamble from './Preamble';
 import Image from './Image';
 import Ingredient from './Ingredient';
 import Instruction from './Instruction';
+import User from './User';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <Title heading="Här hittar ni mina recept" />
@@ -27,6 +28,7 @@ function App() {
           <Instruction step="🍰 Häll smeten i en smord form" />
           <Instruction step="⏲️ Grädda i 175 grader i 30 minuter" />
         </ol>
+        <User />
       </div>
     </div>
   );
