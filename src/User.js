@@ -10,11 +10,13 @@ function User(props) {
   return (
     <div>
       <h1>Users</h1>
-      <ul>
+      <div>
         {userData.map(user => (
-          <li key={user.id}>{user.name}</li>
+          <div key={user.id}>
+            <p>{user.name}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
